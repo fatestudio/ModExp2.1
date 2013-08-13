@@ -1,0 +1,327 @@
+# Reading K:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ModExp_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying K:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied K:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+K:/altera/12.1sp1/ModExp\ 2.0\ -\ copied {K:/altera/12.1sp1/ModExp 2.0 - copied/_parameter.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# vlog -vlog01compat -work work +incdir+K:/altera/12.1sp1/ModExp\ 2.0\ -\ copied {K:/altera/12.1sp1/ModExp 2.0 - copied/mul_add.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module mul_add
+# 
+# Top level modules:
+# 	mul_add
+# vlog -vlog01compat -work work +incdir+K:/altera/12.1sp1/ModExp\ 2.0\ -\ copied {K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp
+# 
+# Top level modules:
+# 	ModExp
+# 
+do ModExpSimulation.tcl
+# work.MonExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.mul_add
+# ** Warning: (vsim-3017) ModExp_tb.v(23): [TFMPC] - Too few port connections. Expected 14, found 10.
+# 
+#         Region: /ModExp_tb/modexp0
+# ** Warning: (vsim-3015) ModExp_tb.v(23): [PCDPC] - Port size (16 or 16) does not match connection size (64) for port 'res_out'. The port definition is at: K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v(20).
+# 
+#         Region: /ModExp_tb/modexp0
+# ** Warning: (vsim-3722) ModExp_tb.v(23): [TFMPC] - Missing connection for port 'n_buf'.
+# 
+# ** Warning: (vsim-3722) ModExp_tb.v(23): [TFMPC] - Missing connection for port 'r_buf'.
+# 
+# ** Warning: (vsim-3722) ModExp_tb.v(23): [TFMPC] - Missing connection for port 't_buf'.
+# 
+# ** Warning: (vsim-3722) ModExp_tb.v(23): [TFMPC] - Missing connection for port 'nprime0_buf'.
+# 
+# ** Error: (vish-4014) No objects found matching '/ModExp_tb/modexp0/n_buf'.
+# Error in macro ./ModExpSimulation.tcl line 17
+# (vish-4014) No objects found matching '/ModExp_tb/modexp0/n_buf'.
+#     while executing
+# "add wave -hex -internal /ModExp_tb/modexp0/n_buf"
+do ModExpSimulation.tcl
+# work.MonExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.mul_add
+# ** Warning: (vsim-3017) ModExp_tb.v(23): [TFMPC] - Too few port connections. Expected 14, found 13.
+# 
+#         Region: /ModExp_tb/modexp0
+# ** Warning: (vsim-3722) ModExp_tb.v(23): [TFMPC] - Missing connection for port 'n_buf'.
+# 
+# ** Error: (vish-4014) No objects found matching '/ModExp_tb/modexp0/n_buf'.
+# Error in macro ./ModExpSimulation.tcl line 17
+# (vish-4014) No objects found matching '/ModExp_tb/modexp0/n_buf'.
+#     while executing
+# "add wave -hex -internal /ModExp_tb/modexp0/n_buf"
+do ModExpSimulation.tcl
+# work.MonExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.mul_add
+# ** Error: (vish-4014) No objects found matching '/ModExp_tb/modexp0/n_buf'.
+# Error in macro ./ModExpSimulation.tcl line 17
+# (vish-4014) No objects found matching '/ModExp_tb/modexp0/n_buf'.
+#     while executing
+# "add wave -hex -internal /ModExp_tb/modexp0/n_buf"
+do ModExpSimulation.tcl
+# work.MonExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.mul_add
+# Exp_state=ES0	In State S6!
+# e_in[          0][          2] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+# Exp_state=ES0	In State S6!
+# e_in[          0][          2] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+do ModExpSimulation.tcl
+# work.MonExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.mul_add
+# Exp_state=ES0	In State S6!
+# e_in[          0][          2] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+# Exp_state=ES0	In State S6!
+# e_in[          0][          2] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+do ModExpSimulation.tcl
+# work.MonExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.mul_add
+# Exp_state=ES0	In State S6!
+# e_in[          0][          2] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+# Exp_state=ES0	In State S6!
+# e_in[          0][          2] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+do ModExpSimulation.tcl
+# work.MonExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.mul_add
+# Exp_state=ES0	In State S6!
+# e_in[          0][          2] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+# Exp_state=ES0	In State S6!
+# e_in[          0][          2] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+do ModExpSimulation.tcl
+# work.MonExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.mul_add
+# Exp_state=ES0	In State S6!
+# e_in[          0][          2] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+# Exp_state=ES0	In State S6!
+# e_in[          0][          3] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           3
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+do ModExpSimulation.tcl
+# work.MonExp_tb
+# 
+# 	hexadecimal {data -r *}
+# 
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module ModExp_tb
+# 
+# Top level modules:
+# 	ModExp_tb
+# vsim -L altera_mf_ver -L lpm_ver -L cycloneiii_ver -L cycloneii_ver work.ModExp_tb 
+# Loading work.ModExp_tb
+# Loading work.ModExp
+# Loading work.mul_add
+# Exp_state=ES0	In State S6!
+# e_in[          0][          2] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!
+# Exp_state=ES0	In State S6!
+# e_in[          0][          3] = 1
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           3
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           2
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           1
+# Exp_state=ES3	In State S6!
+# Exp_state=ES2	In State S6!
+# k_e1:           0, k_e2:           0
+# Exp_state=ES3	In State S6!
+# Exp_state=ES4	In State S6!

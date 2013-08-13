@@ -1,0 +1,66 @@
+m255
+K3
+13
+cModel Technology
+Z0 dK:\altera\12.1sp1\ModExp 2.0 - copied\simulation\modelsim
+vModExp
+Z1 IelIELT=5UjRL3KgPaQ9V]3
+Z2 V]0X<fLFl_A`MXB?^F8NK@0
+Z3 dK:\altera\12.1sp1\ModExp 2.0 - copied\simulation\modelsim
+Z4 w1376275238
+Z5 8K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v
+Z6 FK:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v
+L0 5
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 o-vlog01compat -work work -O0
+Z9 !s92 -vlog01compat -work work {+incdir+K:/altera/12.1sp1/ModExp 2.0 - copied} -O0
+Z10 n@mod@exp
+Z11 !s100 RWf=7IPg18>f[2g@:efLk0
+Z12 !s108 1376334929.965000
+Z13 !s107 _parameter.v|K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v|
+Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+K:/altera/12.1sp1/ModExp 2.0 - copied|K:/altera/12.1sp1/ModExp 2.0 - copied/ModExp.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vModExp_tb
+!i10b 1
+!s100 aW`WloVS6ji_Pk8iVB<[M3
+Ij1ke:G]SG15aYOL4MDe592
+Z15 V]<cc;ZiXclDcKe;D2iXC?2
+R3
+w1376365390
+Z16 8ModExp_tb.v
+Z17 FModExp_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1376365396.718000
+!s107 _parameter.v|ModExp_tb.v|
+Z18 !s90 -reportprogress|300|ModExp_tb.v|
+!s101 -O0
+o-O0
+Z19 n@mod@exp_tb
+vmul_add
+Z20 IJmJ2@62NHPb<Iimb7X4Ah1
+Z21 V5PW`[o9zh3oGa[:D:Q=Q12
+R3
+Z22 w1373561584
+Z23 8K:/altera/12.1sp1/ModExp 2.0 - copied/mul_add.v
+Z24 FK:/altera/12.1sp1/ModExp 2.0 - copied/mul_add.v
+L0 4
+R7
+r1
+31
+R8
+R9
+Z25 !s100 oi51TC3ASPMm9AS`cZ1Sc0
+Z26 !s108 1376334929.796000
+Z27 !s107 _parameter.v|K:/altera/12.1sp1/ModExp 2.0 - copied/mul_add.v|
+Z28 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+K:/altera/12.1sp1/ModExp 2.0 - copied|K:/altera/12.1sp1/ModExp 2.0 - copied/mul_add.v|
+!i10b 1
+!s85 0
+!s101 -O0
